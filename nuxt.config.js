@@ -20,7 +20,10 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: ['@/assets/fonts/mono/style.css', '@/assets/fonts/sofia_pro/style.css'],
+  css: [
+    '@/assets/fonts/sofia_pro/style.css',
+    '@/assets/fonts/chronicles/style.css',
+  ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],

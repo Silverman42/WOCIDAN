@@ -9,13 +9,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: colors.teal,
+        primary: colors.cyan,
         secondary: colors.rose,
         gray: colors.trueGray,
       },
       fontFamily: {
         sans: ['Sofia Pro Regular', 'system-ui'],
-        serif: ['ui-serif', 'Georgia'],
+        serif: ['Chronicle Display Black', 'Georgia'],
         mono: ['SF Mono Regular', 'SFMono-Regular'],
       },
     },

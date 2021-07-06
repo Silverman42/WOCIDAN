@@ -1,6 +1,6 @@
 <template>
   <div class="font-sans">
-    <header class="navbar md:sticky top-0 left-0 z-20">
+    <header class="navbar md:fixed w-full top-0 left-0 z-20">
       <div
         class="
           px-4
@@ -15,36 +15,41 @@
           py-3
         "
       >
-        <div class="w-20 font-bold">S U N</div>
+        <div class="w-20 font-bold">W O C</div>
         <nav class="flex items-center">
           <ul class="md:flex items-center mr-4 hidden">
             <li class="mr-5">
-              <a href="#trading" class="hover:text-blue-500">Trading</a>
+              <a
+                href="#trading"
+                class="hover:text-primary-700 text-xs tracking-widest uppercase"
+                >Home</a
+              >
             </li>
             <li class="mr-5">
-              <a href="#services" class="hover:text-blue-500">Services</a>
+              <a
+                href="#services"
+                class="hover:text-primary-700 text-xs tracking-widest uppercase"
+                >Procedure</a
+              >
             </li>
             <li class="mr-5">
-              <a href="#contact" class="hover:text-blue-500">Contact</a>
+              <a
+                href="#contact"
+                class="hover:text-primary-700 text-xs tracking-widest uppercase"
+                >Contact</a
+              >
             </li>
             <li class="mr-5">
-              <a href="#about" class="hover:text-blue-500">About</a>
+              <a
+                href="#about"
+                class="hover:text-primary-700 text-xs tracking-widest uppercase"
+                >About</a
+              >
             </li>
           </ul>
-          <a
-            href="mailto:snkeze@gmail.com"
-            class="
-              py-2
-              px-4
-              inline-block
-              rounded-lg
-              bg-black
-              text-white
-              hover:bg-blue-700
-            "
+          <action-i-link :extend="['btn-primary', 'btn-xs']"
+            >Register</action-i-link
           >
-            Reach me
-          </a>
         </nav>
       </div>
     </header>
@@ -65,16 +70,16 @@
         "
       >
         <li class="mr-5">
-          <a href="#trading" class="hover:text-blue-500">Trading</a>
+          <a href="#trading" class="hover:text-primary-700">Home</a>
         </li>
         <li class="mr-5">
-          <a href="#services" class="hover:text-blue-500">Services</a>
+          <a href="#services" class="hover:text-primary-700">Procedure</a>
         </li>
         <li class="mr-5">
-          <a href="#contact" class="hover:text-blue-500">Contact</a>
+          <a href="#contact" class="hover:text-primary-700">Contact</a>
         </li>
         <li class="mr-5">
-          <a href="#about" class="hover:text-blue-500">About</a>
+          <a href="#about" class="hover:text-primary-700">About</a>
         </li>
       </ul>
     </aside>

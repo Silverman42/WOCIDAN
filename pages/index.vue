@@ -3,11 +3,16 @@
     <!-- Hero phrase start -->
     <hero />
     <!-- Hero phrase end -->
+    <partners />
+    <services />
+    <bottom />
   </div>
 </template>
 
 <script>
+import Partners from '~/components/Partners.vue'
 export default {
+  components: { Partners },
   layout: 'Main',
   data() {
     return {
