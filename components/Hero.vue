@@ -1,42 +1,60 @@
 <template>
-  <section class="px-4 pb-32 pt-20 md:pt-44 relative">
-    <img
-      src="/img/hero_bg.jpeg"
+  <section class="px-4 pb-28 pt-20 md:pt-32 relative">
+    <!-- <img
+      src="/img/home_hero_bg.jpg"
       class="absolute top-0 right-0 w-full h-full object-cover object-center"
       style="z-index: 3"
       alt=""
-    />
+    /> -->
     <div class="foreground"></div>
     <div class="max-w-5xl mx-auto relative" style="z-index: 5">
-      <h1 class="font-serif text-4xl md:text-7xl mb-6 text-primary-900">
-        Energy efficient buildings that fit your budget
-      </h1>
-      <p class="text-gray-800 mb-8 md:text-lg md:w-9/12">
-        WOC Infrastructural Development and Natural Gas Ltd. in collaboration
-        with Delta State Government is developing and building unit
-        environmentally friendly green energy smart cities in the (3) senatorial
-        districts of Delta State
-      </p>
-      <div class="w-full mb-14 md:w-72">
-        <action-i-link :extend="['btn-primary', 'btn-sm']"
-          >Register for Mortgage</action-i-link
-        >
+      <div
+        class="flex justify-between lg:items-stretch flex-wrap lg:flex-nowrap"
+      >
+        <div class="w-full lg:w-5/12 lg:mr-3">
+          <h1 class="font-serif text-4xl md:text-6xl mb-6 text-primary-700">
+            WOC Energy Efficient Buildings that fit your Budget
+          </h1>
+          <p class="text-gray-700 mb-8 text-base md:w-9/12">
+            WOC Infrastructural Development and Natural Gas Ltd. in
+            collaboration with Delta State Government is developing and building
+            unit environmentally friendly green energy smart cities in the (3)
+            senatorial districts of Delta State
+          </p>
+          <div class="w-full mb-14 md:w-72">
+            <action-i-link :extend="['btn-primary', 'btn-sm']"
+              >Register for Mortgage</action-i-link
+            >
+          </div>
+        </div>
+        <div class="w-full mb-5 lg:w-6/12 shadow-offset_blue">
+          <img
+            src="/img/home_hero_bg.jpg"
+            class="w-full h-52 lg:h-full object-cover object-center"
+            alt="Sustainable mega city"
+          />
+        </div>
       </div>
       <div class="flex justify-between items-end flex-wrap">
         <div class="w-full md:w-5/12 mb-10 md:mb-0">
           <div class="mb-3">Official Partner</div>
-          <a href="https://www.deltastate.gov.ng/" target="_blank" class="flex">
+          <a
+            href="./document/approval.pdf"
+            download
+            target="_blank"
+            class="flex"
+          >
             <img
               src="/img/delta-Logo.png"
               class="w-14 mr-3 filter grayscale"
               alt=""
             />
             <div>
-              <p class="text-primary-900 font-bold">
+              <p class="text-primary-700 font-bold">
                 Delta State Government, Nigeria
               </p>
               <span class="text-sm text-gray-600 hover:text-gray-800"
-                >Visit site</span
+                >Download approval letter</span
               >
             </div>
           </a>
@@ -62,7 +80,7 @@
               justify-center
               items-center
               bg-gray-900
-              group-hover:bg-primary-900
+              group-hover:bg-primary-700
               text-white
               w-24
               h-14
@@ -92,8 +110,8 @@ export default {
   background: rgb(255, 255, 255);
   background: linear-gradient(
     0deg,
-    rgba(255, 255, 255, 0.969625350140056) 23%,
-    rgba(255, 255, 255, 0.5578606442577031) 100%
+    rgba(255, 255, 255, 0.969625350140056) 50%,
+    rgba(255, 255, 255, 0.2578606442577031) 100%
   );
 }
 </style>

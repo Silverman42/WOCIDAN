@@ -1,0 +1,24 @@
+.shadow-offset_light,
+.shadow-offset_blue{
+  position: relative;
+}
+
+.shadow-offset_light::before,
+.shadow-offset_blue::before
+{
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -100;
+  top: 10px;
+  left: -10px;
+}
+
+.shadow-offset_light::before{
+    @apply bg-primary-100;
+}
+
+.shadow-offset_blue::before{
+    @apply bg-primary-500;
+}

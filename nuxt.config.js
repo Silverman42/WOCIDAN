@@ -23,6 +23,7 @@ export default {
   css: [
     '@/assets/fonts/sofia_pro/style.css',
     '@/assets/fonts/chronicles/style.css',
+    '@/assets/style.css',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins

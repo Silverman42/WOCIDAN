@@ -4,7 +4,9 @@
     <hero />
     <!-- Hero phrase end -->
     <partners />
-    <services />
+    <apartments />
+    <amenities />
+    <qualification-home />
     <bottom />
   </div>
 </template>
