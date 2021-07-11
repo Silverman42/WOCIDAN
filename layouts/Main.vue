@@ -1,5 +1,5 @@
 <template>
-  <div class="font-sans">
+  <div id="observer-root" class="font-sans">
     <header class="navbar md:fixed w-full top-0 left-0 z-20">
       <div
         class="
@@ -87,6 +87,7 @@
     <footer></footer>
   </div>
 </template>
+
 <style scoped>
 .navbar {
   background: rgba(255, 255, 255, 0.45);

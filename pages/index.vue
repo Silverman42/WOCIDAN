@@ -13,9 +13,10 @@
 
 <script>
 import Partners from '~/components/Partners.vue'
-import { OberverModule } from '~/assets/helper'
+import { ObserverModule } from '~/assets/helper'
 export default {
   components: { Partners },
+  mixins: [ObserverModule],
   layout: 'Main',
   data() {
     return {
@@ -23,16 +24,14 @@ export default {
     }
   },
   mounted() {
-    const vm = this // Vue instance
-    document.addEventListener('DOMContentLoaded', function () {
+    const vm = this
+    window.addEventListener('load', () => {
       vm.ObserveElement('.hide-slideUp', 'slideUp')
       vm.ObserveElement('.hide-slideInLeft', 'slideInLeft')
       vm.ObserveElement('.hide-slideInRight', 'slideInRight')
     })
   },
-  methods: {
-    ...OberverModule,
-  },
+  methods: {},
 }
 </script>
 
