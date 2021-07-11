@@ -15,7 +15,7 @@ module.exports = {
       },
       fontFamily: {
         sans: ['Sofia Pro Regular', 'system-ui'],
-        serif: ['Chronicle Display Black', 'Georgia'],
+        serif: ['"Chronicle Display Black"', 'Georgia'],
         mono: ['SF Mono Regular', 'SFMono-Regular'],
       },
     },
