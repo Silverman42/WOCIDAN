@@ -13,6 +13,7 @@
 
 <script>
 import Partners from '~/components/Partners.vue'
+import { OberverModule } from '~/assets/helper'
 export default {
   components: { Partners },
   layout: 'Main',
@@ -20,6 +21,17 @@ export default {
     return {
       new: '',
     }
+  },
+  mounted() {
+    const vm = this // Vue instance
+    document.addEventListener('DOMContentLoaded', function () {
+      vm.ObserveElement('.hide-slideUp', 'slideUp')
+      vm.ObserveElement('.hide-slideInLeft', 'slideInLeft')
+      vm.ObserveElement('.hide-slideInRight', 'slideInRight')
+    })
+  },
+  methods: {
+    ...OberverModule,
   },
 }
 </script>

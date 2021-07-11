@@ -11,23 +11,23 @@
       <div
         class="flex justify-between lg:items-stretch flex-wrap lg:flex-nowrap"
       >
-        <div class="w-full lg:w-5/12 lg:mr-3">
+        <div class="w-full lg:w-5/12 lg:mr-3 hide-slideInLeft">
           <h1 class="font-serif text-4xl md:text-6xl mb-6 text-primary-700">
             WOC Energy Efficient Buildings that fit your Budget
           </h1>
-          <p class="text-gray-700 mb-8 text-base md:w-9/12">
+          <p class="text-gray-700 mb-8 text-base md:w-9/12 hide-slideInLeft">
             WOC Infrastructural Development and Natural Gas Ltd. in
             collaboration with Delta State Government is developing and building
             unit environmentally friendly green energy smart cities in the (3)
             senatorial districts of Delta State
           </p>
-          <div class="w-full mb-14 md:w-72">
+          <div class="w-full mb-14 md:w-72 hide-slideUp">
             <action-i-link :extend="['btn-primary', 'btn-sm']"
               >Register for Mortgage</action-i-link
             >
           </div>
         </div>
-        <div class="w-full mb-5 lg:w-6/12 shadow-offset_blue">
+        <div class="w-full mb-5 lg:w-6/12 shadow-offset_blue hide-slideInRight">
           <img
             src="/img/home_hero_bg.jpg"
             class="w-full h-52 lg:h-full object-cover object-center"
@@ -35,7 +35,7 @@
           />
         </div>
       </div>
-      <div class="flex justify-between items-end flex-wrap">
+      <div class="flex justify-between items-end flex-wrap hide-slideUp">
         <div class="w-full md:w-5/12 mb-10 md:mb-0">
           <div class="mb-3">Official Partner</div>
           <a
@@ -68,6 +68,7 @@
             flex
             items-center
             text-base
+            hide-slideUp
           "
         >
           <p class="text-gray-800 flex-grow mr-2">
@@ -103,7 +104,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 .foreground {
   z-index: 4;
   @apply w-full h-full absolute top-0 right-0;

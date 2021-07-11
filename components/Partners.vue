@@ -1,13 +1,13 @@
 <template>
   <section class="px-4 py-32 relative bg-blue-100">
     <div class="max-w-5xl flex-wrap flex justify-between mx-auto">
-      <div class="md:w-5/12 w-full md:mr-2">
+      <div class="md:w-5/12 w-full md:mr-2 hide-slideInLeft">
         <p class="text-sm tracking-widest uppercase">PARTNERS</p>
         <h2 class="font-serif text-4xl md:text-7xl mb-6 text-primary-700">
           Collaborating with the best in the industry
         </h2>
       </div>
-      <div class="md:w-5/12 w-full">
+      <div class="md:w-5/12 w-full hide-slideInRight">
         <tabs :tabs="tabs" default-active-tab="Foreign Partners">
           <template #tab-body-foreign-partners>
             <foreign-partners />

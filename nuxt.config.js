@@ -1,6 +1,6 @@
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
-  ssr: false,
+  ssr: true,
 
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -24,6 +24,7 @@ export default {
     '@/assets/fonts/sofia_pro/style.css',
     '@/assets/fonts/chronicles/style.css',
     '@/assets/style.css',
+    '@/assets/animation.css',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins

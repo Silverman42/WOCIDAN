@@ -1,5 +1,5 @@
 <template>
-  <section class="px-4 pb-20 relative">
+  <section class="px-4 pb-10 relative">
     <div class="max-w-5xl mx-auto">
       <div
         class="
@@ -11,7 +11,7 @@
           shadow-offset_light
         "
       >
-        <div>
+        <div class="hide-slideInRight">
           <p class="text-xs text-primary-200 tracking-widest uppercase mb-2">
             ADDRESS
           </p>
@@ -20,7 +20,7 @@
             Lagos Island
           </address>
         </div>
-        <div>
+        <div class="hide-slideInRight">
           <p class="text-xs text-primary-200 tracking-widest uppercase mb-2">
             PHONE NUMBER
           </p>
@@ -28,7 +28,7 @@
             <a href="tel:+2347039134015">+234-70-391-340-15</a>
           </figure>
         </div>
-        <div>
+        <div class="hide-slideInRight">
           <p class="text-xs text-primary-200 tracking-widest uppercase mb-2">
             Email
           </p>
@@ -36,7 +36,7 @@
             <a href="mailto:support@wocidan.com.ng">support@wocidan.com.ng</a>
           </figure>
         </div>
-        <div>
+        <div class="hide-slideInRight">
           <p class="text-xs text-primary-200 tracking-widest uppercase mb-2">
             Social
           </p>
@@ -53,6 +53,21 @@
           </figure>
         </div>
       </div>
+      <div class="flex flex-col md:flex-row justify-between items-center mt-8">
+        <div class="mb-8 md:mb-0">
+          <span class="font-bold">WOC</span>
+          © {{ getCurrentYear() }}
+        </div>
+        <div class="md:text-right">
+          <span class="text-gray-500 text-sm">Developed by</span> <br />
+          <a
+            target="_blank"
+            class="text-gray-800 hover:text-primary-700"
+            href="http://jdtechnologies.com.ng"
+            >JD Computer Technologies</a
+          >
+        </div>
+      </div>
     </div>
   </section>
 </template>
@@ -64,6 +79,11 @@ export default {
     FacebookIcon,
     LinkedinIcon,
     TwitterIcon,
+  },
+  methods: {
+    getCurrentYear() {
+      return new Date().getFullYear()
+    },
   },
 }
 </script>
