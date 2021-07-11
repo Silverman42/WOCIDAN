@@ -41,5 +41,10 @@ export const ObserverModule = {
         elementObserver.observe(element)
       })
     },
+    TriggerObserver() {
+      this.ObserveElement('.hide-slideUp', 'slideUp')
+      this.ObserveElement('.hide-slideInLeft', 'slideInLeft')
+      this.ObserveElement('.hide-slideInRight', 'slideInRight')
+    },
   },
 }

@@ -13,7 +13,7 @@
       >
         <div class="hide-slideInRight">
           <p class="text-xs text-primary-200 tracking-widest uppercase mb-2">
-            ADDRESS
+            LAGOS ADDRESS
           </p>
           <address class="text-white not-italic">
             No 1, Engineering Close, 2nd Floor, Victoria Island <br />
@@ -22,18 +22,18 @@
         </div>
         <div class="hide-slideInRight">
           <p class="text-xs text-primary-200 tracking-widest uppercase mb-2">
+            UK ADDRESS
+          </p>
+          <address class="text-white not-italic">
+            20 Dunville Meadow, Athlumney, Navan, County Meath. Ireland
+          </address>
+        </div>
+        <div class="hide-slideInRight">
+          <p class="text-xs text-primary-200 tracking-widest uppercase mb-2">
             PHONE NUMBER
           </p>
           <figure class="text-white not-italic">
             <a href="tel:+2347039134015">+234-70-391-340-15</a>
-          </figure>
-        </div>
-        <div class="hide-slideInRight">
-          <p class="text-xs text-primary-200 tracking-widest uppercase mb-2">
-            Email
-          </p>
-          <figure class="text-white not-italic">
-            <a href="mailto:support@wocidan.com.ng">support@wocidan.com.ng</a>
           </figure>
         </div>
         <div class="hide-slideInRight">
@@ -50,6 +50,14 @@
             <a href="#" class="text-white hover:text-primary-100">
               <twitter-icon size="1.5x" />
             </a>
+          </figure>
+        </div>
+        <div class="hide-slideInRight">
+          <p class="text-xs text-primary-200 tracking-widest uppercase mb-2">
+            Email
+          </p>
+          <figure class="text-white not-italic">
+            <a href="mailto:support@wocidan.com.ng">support@wocidan.com.ng</a>
           </figure>
         </div>
       </div>

@@ -23,13 +23,15 @@ export default {
       new: '',
     }
   },
+  updated() {
+    this.TriggerObserver()
+  },
   mounted() {
     const vm = this
     window.addEventListener('load', () => {
-      vm.ObserveElement('.hide-slideUp', 'slideUp')
-      vm.ObserveElement('.hide-slideInLeft', 'slideInLeft')
-      vm.ObserveElement('.hide-slideInRight', 'slideInRight')
+      vm.TriggerObserver()
     })
+    vm.TriggerObserver()
   },
   methods: {},
 }

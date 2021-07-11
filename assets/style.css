@@ -22,3 +22,7 @@
 .shadow-offset_blue::before{
     @apply bg-primary-500;
 }
+
+.icon-check {
+  @apply w-6 h-6 rounded-full bg-primary-300 flex justify-center items-center;
+}

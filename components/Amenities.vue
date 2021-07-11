@@ -90,8 +90,4 @@ export default {
 }
 </script>
 
-<style scoped>
-.icon-check {
-  @apply w-6 h-6 rounded-full bg-primary-300 text-white flex justify-center items-center;
-}
-</style>
+<style></style>

@@ -19,10 +19,10 @@
         <nav class="flex items-center">
           <ul class="md:flex items-center mr-4 hidden">
             <li class="mr-5">
-              <a
-                href="#trading"
+              <nuxt-link
+                to="/"
                 class="hover:text-primary-700 text-xs tracking-widest uppercase"
-                >Home</a
+                >Home</nuxt-link
               >
             </li>
             <li class="mr-5">
@@ -36,14 +36,21 @@
               <a
                 href="#contact"
                 class="hover:text-primary-700 text-xs tracking-widest uppercase"
-                >Contact</a
+                >Team</a
               >
             </li>
             <li class="mr-5">
               <a
-                href="#about"
+                href="#contact"
                 class="hover:text-primary-700 text-xs tracking-widest uppercase"
-                >About</a
+                >Features</a
+              >
+            </li>
+            <li class="mr-5">
+              <nuxt-link
+                to="/about"
+                class="hover:text-primary-700 text-xs tracking-widest uppercase"
+                >About</nuxt-link
               >
             </li>
           </ul>
@@ -76,7 +83,10 @@
           <a href="#services" class="hover:text-primary-700">Procedure</a>
         </li>
         <li class="mr-5">
-          <a href="#contact" class="hover:text-primary-700">Contact</a>
+          <a href="#contact" class="hover:text-primary-700">Team</a>
+        </li>
+        <li class="mr-5">
+          <a href="#about" class="hover:text-primary-700">Features</a>
         </li>
         <li class="mr-5">
           <a href="#about" class="hover:text-primary-700">About</a>
