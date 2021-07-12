@@ -71,25 +71,27 @@
           items-center
           py-4
           border-b-1
-          justify-center
+          justify-start
           flex
           overflow-x-auto
         "
       >
-        <li class="mr-5">
-          <a href="#trading" class="hover:text-primary-700">Home</a>
+        <li class="mr-5 inline-block">
+          <nuxt-link to="/" class="hover:text-primary-700">Home</nuxt-link>
         </li>
-        <li class="mr-5">
+        <li class="mr-5 inline-block">
           <a href="#services" class="hover:text-primary-700">Procedure</a>
         </li>
-        <li class="mr-5">
+        <li class="mr-5 inline-block">
           <a href="#contact" class="hover:text-primary-700">Team</a>
         </li>
-        <li class="mr-5">
+        <li class="mr-5 inline-block">
           <a href="#about" class="hover:text-primary-700">Features</a>
         </li>
-        <li class="mr-5">
-          <a href="#about" class="hover:text-primary-700">About</a>
+        <li class="mr-5 inline-block">
+          <nuxt-link to="/about" class="hover:text-primary-700"
+            >About</nuxt-link
+          >
         </li>
       </ul>
     </aside>
