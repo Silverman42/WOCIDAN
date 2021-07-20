@@ -1,10 +1,9 @@
 <template>
   <div>
-    <hero-about></hero-about>
-    <about />
-    <smart-city-locations />
-    <background />
-    <aim-objective />
+    <hero-procedure />
+    <purchase-info />
+    <author-release />
+    <the-program />
   </div>
 </template>
 

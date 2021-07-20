@@ -1,10 +1,8 @@
 <template>
-  <div>
-    <hero-about></hero-about>
-    <about />
-    <smart-city-locations />
-    <background />
-    <aim-objective />
+  <div class="min-h-screen">
+    <hero-features />
+    <estate-amenities />
+    <apartments />
   </div>
 </template>
 

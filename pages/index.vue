@@ -7,7 +7,6 @@
     <apartments />
     <amenities />
     <qualification-home />
-    <bottom />
   </div>
 </template>
 

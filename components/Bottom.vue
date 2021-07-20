@@ -22,7 +22,7 @@
         </div>
         <div class="hide-slideInRight">
           <p class="text-xs text-primary-200 tracking-widest uppercase mb-2">
-            UK ADDRESS
+            IRELAND ADDRESS
           </p>
           <address class="text-white not-italic">
             20 Dunville Meadow, Athlumney, Navan, County Meath. Ireland

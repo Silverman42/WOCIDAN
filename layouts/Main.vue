@@ -21,40 +21,46 @@
             <li class="mr-5">
               <nuxt-link
                 to="/"
+                active-class="text-primary-700"
+                exact
                 class="hover:text-primary-700 text-xs tracking-widest uppercase"
                 >Home</nuxt-link
               >
             </li>
             <li class="mr-5">
-              <a
-                href="#services"
+              <nuxt-link
+                to="procedure"
+                active-class="text-primary-700"
                 class="hover:text-primary-700 text-xs tracking-widest uppercase"
-                >Procedure</a
+                >Procedure</nuxt-link
               >
             </li>
             <li class="mr-5">
-              <a
-                href="#contact"
+              <nuxt-link
+                to="team"
+                active-class="text-primary-700"
                 class="hover:text-primary-700 text-xs tracking-widest uppercase"
-                >Team</a
+                >Team</nuxt-link
               >
             </li>
             <li class="mr-5">
-              <a
-                href="#contact"
+              <nuxt-link
+                to="/features"
+                active-class="text-primary-700"
                 class="hover:text-primary-700 text-xs tracking-widest uppercase"
-                >Features</a
+                >Features</nuxt-link
               >
             </li>
             <li class="mr-5">
               <nuxt-link
                 to="/about"
+                active-class="text-primary-700"
                 class="hover:text-primary-700 text-xs tracking-widest uppercase"
                 >About</nuxt-link
               >
             </li>
           </ul>
-          <action-i-link :extend="['btn-primary', 'btn-xs']"
+          <action-i-link href="register" :extend="['btn-primary', 'btn-xs']"
             >Register</action-i-link
           >
         </nav>
@@ -77,26 +83,50 @@
         "
       >
         <li class="mr-5 inline-block">
-          <nuxt-link to="/" class="hover:text-primary-700">Home</nuxt-link>
+          <nuxt-link
+            to="/"
+            active-class="text-primary-700"
+            class="hover:text-primary-700"
+            exact=""
+            >Home</nuxt-link
+          >
         </li>
         <li class="mr-5 inline-block">
-          <a href="#services" class="hover:text-primary-700">Procedure</a>
+          <nuxt-link
+            to="procedure"
+            class="hover:text-primary-700"
+            active-class="text-primary-700"
+            >Procedure</nuxt-link
+          >
         </li>
         <li class="mr-5 inline-block">
-          <a href="#contact" class="hover:text-primary-700">Team</a>
+          <nuxt-link
+            to="team"
+            active-class="text-primary-700"
+            class="hover:text-primary-700"
+            >Team</nuxt-link
+          >
         </li>
         <li class="mr-5 inline-block">
-          <a href="#about" class="hover:text-primary-700">Features</a>
+          <nuxt-link
+            to="/features"
+            active-class="text-primary-700"
+            class="hover:text-primary-700"
+            >Features</nuxt-link
+          >
         </li>
         <li class="mr-5 inline-block">
-          <nuxt-link to="/about" class="hover:text-primary-700"
+          <nuxt-link
+            to="/about"
+            active-class="text-primary-700"
+            class="hover:text-primary-700"
             >About</nuxt-link
           >
         </li>
       </ul>
     </aside>
     <nuxt-child />
-    <footer></footer>
+    <bottom />
   </div>
 </template>
 

@@ -1,11 +1,5 @@
 <template>
-  <div>
-    <hero-about></hero-about>
-    <about />
-    <smart-city-locations />
-    <background />
-    <aim-objective />
-  </div>
+  <div></div>
 </template>
 
 <script>
