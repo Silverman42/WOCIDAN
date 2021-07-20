@@ -8,7 +8,7 @@
           <div class="w-full lg:w-5/12 md:mr-3 hide-slideInLeft">
             <p class="text-sm tracking-widest uppercase">Procedure</p>
             <h1 class="font-serif text-4xl md:text-6xl mb-6 text-primary-700">
-              All you need to know to key into the Housing project
+              All you need to know to key into the SMART Housing project
             </h1>
             <p class="text-gray-700 mb-8 text-base md:w-9/12 hide-slideInLeft">
               Be informed on how to register for the housing project, who it was
