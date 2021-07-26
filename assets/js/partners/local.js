@@ -34,4 +34,10 @@ export default [
     description: `JD Computer Technologies is a renowned ICT company based in Delta State, Nigeria. They are the pace-setter for ICT based services and tutions in the Niger and have partnered with some of the leading brands in the tech space`,
     url: '',
   },
+  {
+    name: 'Zenith Bank, Nigeria',
+    logo: '',
+    description: `Zenith Bank Plc is a large financial service provider in Nigeria and Anglophone West Africa. It is licensed as a commercial bank by the Central Bank of Nigeria, the national banking regulator. As of 31 December 2019, it holds $16.1bn in total assets, with shareholders' equity of $854 million`,
+    url: 'https://www.zenithbank.com/',
+  },
 ]

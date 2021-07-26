@@ -49,7 +49,7 @@
               class="w-14 mr-3 filter grayscale"
               alt=""
             />
-            <div>
+            <div class="w-9/12">
               <p class="text-primary-700 font-bold">
                 Delta State Government, Nigeria
               </p>

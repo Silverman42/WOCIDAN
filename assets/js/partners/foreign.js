@@ -28,4 +28,18 @@ export default [
     domiciliation attached `,
     url: '',
   },
+  {
+    name: 'Greenleaf University (USA)',
+    logo: '',
+    description: `Greenleaf University is a distance-learning institution of higher 
+    education based in the USA, with a special public service cause of furthering the academic education of mid-career professionals
+    in leadership and administration with an emphasis on servant-leadership and alternative futures`,
+    url: 'http://greenleaf.edu/',
+  },
+  {
+    name: 'AOU Ventures Limited',
+    logo: '',
+    description: `AOU VENTURES LIMITED is a leading multi-disciplinary construction company incorporated in the year 1998 with RC no: 329519 and they are certified by the Department of Petroleum Resources (DPR), Nigerian Petroleum Exchange (NIPEX) and Industrial Training Fund (ITF) to provide support services for the oil and gas industry and manufacturing industry. `,
+    url: 'http://aouventuresltd.com/',
+  },
 ]
